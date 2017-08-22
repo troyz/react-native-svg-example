@@ -53,8 +53,8 @@ export default class AwesomeProject extends Component {
                `M5 8 l0 0`,
                `M5 8 l215 0`,
             ]
-         });
-         this.circleAnimation = this.state.circleFillAnimation.interpolate({
+        });
+        this.circleAnimation = this.state.circleFillAnimation.interpolate({
             inputRange: [
                0,
                100,
@@ -63,7 +63,7 @@ export default class AwesomeProject extends Component {
                 this.dasharray[0],
                 0
             ]
-         });
+        });
     }
     componentDidMount()
     {
